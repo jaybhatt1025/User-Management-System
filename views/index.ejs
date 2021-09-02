@@ -1,0 +1,44 @@
+<!-- Header -->
+
+<%- include('include/_header')%>
+
+<!-- /Header -->
+
+
+  <!-- Main -->
+  <main class="main-site">
+
+    <div class="container-xl">
+      <div class="adduser">
+        <a href="/add-user">
+          <span>New User <i class="fas fa-user"></i></span>
+        </a>
+      </div>
+
+      <!-- form handling -->
+      <form action="" class="frm">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Gander</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+           
+            <%- include('include/_show')%>
+
+          </tbody>
+        </table>
+      </form>
+      <!-- /form handling -->
+
+    </div>
+  </main>
+  <!-- /Main -->
+
+<%- include('include/_footer')%>
