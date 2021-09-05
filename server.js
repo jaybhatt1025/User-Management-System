@@ -9,7 +9,7 @@ const connectDB = require('./server/database/connection')
 const app = express()
 
 dontenv.config({path:'config.env'})
-const PORT = process.env.PORT||8080
+const PORT = 8080
 
 //log requests
 app.use(morgan('tiny'))
