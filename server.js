@@ -8,7 +8,7 @@ const connectDB = require('./server/database/connection')
 
 const app = express()
 
-dontenv.config({path:'config.env'})
+//dontenv.config({path:'config.env'})
 const PORT = 8080
 
 //log requests
